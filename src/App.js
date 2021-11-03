@@ -43,7 +43,7 @@ function App() {
         <h1 className="name">{character}</h1>
         <p>"{quote}"</p>
         
-        <img className="product" src={image} alt={character} />
+        <img className="img-box" src={image} alt={character} />
         <button className="ran" onClick={() => api() }>Random</button>
        
         
